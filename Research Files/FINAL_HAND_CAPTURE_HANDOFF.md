@@ -1,0 +1,11 @@
+# Final mapped hand Float blend probe — 2026-10-20
+
+RTTI .$Blender<TypedDataNode<float>> resolves vtable1B2B8DC,execute4E3050. This is a different typed routine from prior4E35D0Dilationblender; previousgeneric4E3FA6captures do not establish finalFloatblend behavior. Nativecontributionrecord=controllerpointer+packedword;sourceindexlow12bits,filterindexbits12..23. Reads factor2C multipliedbyfilter, factor30separately,priority34,flag39;groups/flags/normalization/history affectoutput. Do not assume simpleweightedaverage.
+
+New DI3_FinalHandLogger.lua uses3hardwarebreakpoints:entry4E3050,normalpostsetter4E35C0,earlypoststamp4E337B. Normalframe stackentry-510,earlyframeentry-50C;processorsavedatcurrentESP+1Cnormal/+18early. Outputpointerprocessor+30 mustaliasproducer. EntryexactFloatBlenderRTTIguard;atleastonecontributionmustmap tooneof14handports throughcontroller+20 forward/reverse maps (bounds4096),notfixedheapaddresses. Sourcecontainer+18 layout uses+20count/+1Carray alreadyvalidatedinpriorresearch. Capturesall<=32contributors,typedFloatcachedsources andproducerlinks,filtercoefficient,factors/stamps,priority,flag,packedword before/after,outputinitial/final andprocessorheader64.
+
+Threepairs perprocessor,96records/10seconds,PE32/signatures/olderloggerunload/cleanup/completionbeep. Typednodesonly,rawcachedreads;noinjection,gamewritesorforcedevaluation. Filtercoefficientallocationextentnotindependentlycaptured;bounded12bitindex remainscandidate. Source/factorcachebeforeentry maybestale;afterstampsmustbechecked. Caseswithunmapped/nontargetsourcesnotaccepted,notlabelledfailures.
+
+ThreeactualLua5.3mockcases pass:normalandearlyframepairing,port483reversecheck,sourceproducerlink,payload4bytes,beep;signaturefailure;secondbreakpointfailurecleanup. analyze_final_hand_capture.py describesvalidatedpairs,post-callfreshness andseparatefactors;doesnotyetclaimfullscalarblendreplay. No livecaptureyet,viewerunchanged.
+
+Run DI3_FinalHandLogger.lua,moveElsa,pressF8,keepmoving/changingdirectionuntilbeep,send ce_finalhand_*.jsonl. Goal:identifywhichgenericstreams actuallyfeedfinalhandvalues duringrunning beforechangingpreviewcomposition.

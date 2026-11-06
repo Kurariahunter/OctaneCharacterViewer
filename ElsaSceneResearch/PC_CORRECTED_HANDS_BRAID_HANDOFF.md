@@ -1,0 +1,9 @@
+# Corrected finger initialization and braid fallback
+
+Supersedes the first RunHands preview. The finger relationship fixture initialized output Dilation payloads with zero translation. These relationships update orientation while preserving existing position and scale. That erased authored joint offsets, collapsing finger joints. The adapter now optionally accepts initial output payloads, and finger evaluation seeds them from the verified PC DataNode fields. Native tests across processors 165,171,173,175 confirm translation/scale preservation within 1e-7. Original scalar values and quaternion conventions were not flipped.
+
+The braid fallback was inconsistent: hairStart was evaluated, hair01 inherited its old hierarchy, and hair02 explicitly followed Head. The corrected preview computes hair01 relative to hairStart and hair02 relative to hair01, using the source inverse-bind-derived world matrices to preserve their rest offsets. This fixes continuity, not DynamicChain 548 simulation. All 146 sampled parent-relative checks passed. Full moving braid curve/game parity remains unverified.
+
+Open Assets/DI3PCRunHandsCorrectedPreview/Generated/Elsa_PC_RunHandsCorrected_Preview.unity. Left is the original run-plus-lean baseline with fallback fingers; right is corrected native fingers and coherent braid fallback. Body/dress source matrices remain exactly unchanged. Existing previews are preserved. Shared mouse rotation and detail buttons apply automatically.
+
+Validation: native output initialization test, braid fallback continuity test, source matrix regression, isolated Unity build and six rendered phases. The earlier build/render tests did not catch collapsed joints because they only tested finite transforms and motion; this checkpoint adds the missing authored joint-offset invariant.

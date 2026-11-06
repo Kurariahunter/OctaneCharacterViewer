@@ -1,0 +1,11 @@
+# Live upper-dress control blend boundary
+
+2026-10-16. Capture octane_20261016_232915_1792207755186979800.json.60samples, complete scan,zero failed chunks. Expanded first graph137nodes, no node-limit truncation (depth boundaries still present).
+
+Validated paths now reach candidate upper-dress controls0x1e0722d8(left) and0x1e072db0(right). Both point to output-alias-checked graph paths but their producer execute0x4e35d0 was unrecognized at capture time. Across all60samples, each8-float Dilation payload is exactly identity. Source Cntrl_UpperDress565/605 are also identity in the sampled active/passive libraries. This candidate control output alone cannot distinguish those clips or show that a channel is inactive.
+
+Original executable0x4e35d0 reads a contribution table at processor+0x24, record count+0x28, output node+0x30. Records stride8: controller pointer and packed word. Low12bits select a container input slot; bits12..23 index a weight array. Controller+0x34 is compared between adjacent contributors (priority/group evidence),+0x39 is used as a flag. Controller+0x18 is a polymorphic node container, read through vtable methods; optional scalar factors come from controller+0x2c/+0x30. Names, active clip identity and exact priority/weight interpretation are not yet established.
+
+Updated upstream_graph.py supports bounded raw reads of this known Dilation blend table only after output alias validation. Limit64records. Captures controller/container headers, first8container vtable methods, packedindices, priority/group float as rawbytes, flag and scalar-factor payloads. Does not call game methods or write memory. Unknown runtime controller slot resolver remains a boundary. Synthetic tests passed for validtable decoding, oversizedtable rejection and wrongoutput rejection. No new live blend-table capture is claimed.
+
+Machine report: OctaneLiveInspector/fourth-capture-control-analysis.json. Analyzer analyze_fourth_controls.py. Reader and tests in OctaneLiveInspector. Next capture via existing administrator launcher should supply actual contribution records so they can be decoded offline; it is not yet a named active-channel logger. Mesh, weights, previews and production importer unchanged.

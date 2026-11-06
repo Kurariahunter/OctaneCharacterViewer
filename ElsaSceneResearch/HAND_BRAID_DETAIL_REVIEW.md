@@ -1,0 +1,5 @@
+# Screenshot 2026-10-18 105715 review
+
+The right-hand braid has a visibly different bend. It currently combines a source-evaluated hairStart with two fallback segments, so this preview is incomplete and cannot validate the braid curve. Source chain 548 has Dilation binds on both particles, natural frequency 12.56637, damping factor 1.5 and segment-1 length 0.18; dress chains use different parameters. Audit saved in pc-braid-chain-source-audit.json. Next native test must use these braid-specific parameters and constraint processor 549 / node 862, followed by orientation feedback validation.
+
+The fingers may be over-curled, but the screenshot does not resolve them well enough to establish penetration. Native run scalars remain unchanged. Native execution alone does not establish the complete source-layer composition or skinning result. Shared runtime controls now offer close-ups of the updated (last) example: Left hand, Right hand and Braid / head. Both models restores comparison framing. Rotating remains available in detail view. Compilation and rotation regression checks passed; interactive close-up framing is not visually verified in this batch test.
