@@ -1,0 +1,360 @@
+{
+  "model_sha256": "38ba59d139a5a481604ff2668d5a8c60b237da51bb4e6af2c65b866e0275141d",
+  "profiles": [
+    {
+      "name": "elsa_bm_idle_active",
+      "kind": "idle",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_active.oct",
+      "source_sha256": "41ec1e9c743663960bb10e539b39988c57edd7b70a71baeb442e7c87c568cacc",
+      "companions": []
+    },
+    {
+      "name": "elsa_bm_idle_passive",
+      "kind": "idle",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+      "source_sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a",
+      "companions": []
+    },
+    {
+      "name": "grl_bm_walkf",
+      "kind": "walk",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walkf.oct",
+      "source_sha256": "4e86579e4882ee4a38a9938c5eb13cb5141175a18ee470e6d927cd423906fdf3",
+      "companions": [
+        {
+          "name": "grl_bm_walk_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walk_upbody_add.oct",
+          "sha256": "526f170554e07bf45b5e198abf1df2595f019c6796e9d2d422a79e4a652bebc0"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_runf",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runf.oct",
+      "source_sha256": "b069c8b0222ca55dea55ece15d000af40700d41b06eb8515c5c1ff644af6d689",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runf_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runf_lean_add.oct",
+          "sha256": "03847b91ebcc1aaa12388128fcc0a4ab46092adc6bea2a14e2de0661608d902f"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_runrf",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runrf.oct",
+      "source_sha256": "42c58f54a1002020811d25e8db2982a5aa1c6a0d44ca02fda63d5e229ddb73da",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runrf_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runrf_lean_add.oct",
+          "sha256": "12ffebb6fbb757dcc082e801b4d3c5a0079b31e3044da493cdf5a7c100eababf"
+        }
+      ],
+      "group": "Run Right Forward",
+      "lean_companion": "human_bm_runrf_lean_add"
+    },
+    {
+      "name": "grl_bm_runr",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runr.oct",
+      "source_sha256": "9a2c81520b21420b41540dd227a26cb8f8c9cf2e4f49badf484f4d422c958768",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runr_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runr_lean_add.oct",
+          "sha256": "e803959688160cd1fb4a6dcabeeb71d0ff0c1d5466cd6439f6bab9bc6007c31d"
+        }
+      ],
+      "group": "Run Right",
+      "lean_companion": "human_bm_runr_lean_add"
+    },
+    {
+      "name": "elsa_bm_idle_specific01",
+      "kind": "idle",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_specific01.oct",
+      "source_sha256": "e007e57279d269efd764989a989616404ba6fd50f8abf2f41e967e3d143d5e51",
+      "companions": []
+    },
+    {
+      "name": "elsa_bm_idle_specific02",
+      "kind": "idle",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_specific02.oct",
+      "source_sha256": "c2f66d4181297645ed26ca013e92c2e7e273f44b4d9d50f16b31c0517d7df0bf",
+      "companions": []
+    },
+    {
+      "name": "elsa_bm_idle_specific03",
+      "kind": "idle",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_specific03.oct",
+      "source_sha256": "9fe1c9e60b679f212ee2bdb5bcf61eccba81e4e8c750fd4d7f33039e45f19d53",
+      "companions": []
+    },
+    {
+      "name": "grl_bm_runb",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runb.oct",
+      "source_sha256": "6107a940e1fff6ba03d365f0f68bbe8dd1a29991dfbb49d92e2d47fc7a411cd1",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runb_lean_add.oct",
+          "sha256": "c8a6cc61718786041bd4377bd7bfeea01005f080f67791429a5d658f9cd0ea53"
+        }
+      ],
+      "group": "Run Back",
+      "lean_companion": "human_bm_runb_lean_add"
+    },
+    {
+      "name": "grl_bm_runrb",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runrb.oct",
+      "source_sha256": "2b67e7e28cb627d1b63738cb70909a8b867ee62674228e790ca2d63d5d9b46ad",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runrb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runrb_lean_add.oct",
+          "sha256": "ad594cdf6cefb435b152d331480d21c33e6fad62baeeae1cee8df5fed150ef50"
+        }
+      ],
+      "group": "Run Right Back",
+      "lean_companion": "human_bm_runrb_lean_add"
+    },
+    {
+      "name": "grl_bm_runlb",
+      "kind": "run",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_runlb.oct",
+      "source_sha256": "b287fc807b6e822c3d271ec291d204fd07a54677da35bf9ee95367025d37f856",
+      "companions": [
+        {
+          "name": "grl_bm_run_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_run_upbody_add.oct",
+          "sha256": "c02111723b5998ffa2a64c20d8c99751a20587d8b1334d7acabfc07e11b284b9"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runlb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runlb_lean_add.oct",
+          "sha256": "3b6bae5c0c10b5cffb2e937ff31055ae05b54fc920fc8c904e74591df9a7293c"
+        }
+      ],
+      "group": "Run Left Back",
+      "lean_companion": "human_bm_runlb_lean_add"
+    },
+    {
+      "name": "grl_bm_walkb",
+      "kind": "walk",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walkb.oct",
+      "source_sha256": "45126845b16b2c1c31d0ef1b9971e3ef4183071a78e1321d288f993bfc28a15c",
+      "companions": [
+        {
+          "name": "grl_bm_walk_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walk_upbody_add.oct",
+          "sha256": "526f170554e07bf45b5e198abf1df2595f019c6796e9d2d422a79e4a652bebc0"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runb_lean_add.oct",
+          "sha256": "c8a6cc61718786041bd4377bd7bfeea01005f080f67791429a5d658f9cd0ea53"
+        }
+      ],
+      "group": "Walk Back",
+      "lean_companion": "human_bm_runb_lean_add"
+    },
+    {
+      "name": "grl_bm_walkrb",
+      "kind": "walk",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walkrb.oct",
+      "source_sha256": "b152b680ab21e47a133e04da28dc1025190b4e798eca5661938522ef15b11a14",
+      "companions": [
+        {
+          "name": "grl_bm_walk_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walk_upbody_add.oct",
+          "sha256": "526f170554e07bf45b5e198abf1df2595f019c6796e9d2d422a79e4a652bebc0"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runrb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runrb_lean_add.oct",
+          "sha256": "ad594cdf6cefb435b152d331480d21c33e6fad62baeeae1cee8df5fed150ef50"
+        }
+      ],
+      "group": "Walk Right Back",
+      "lean_companion": "human_bm_runrb_lean_add"
+    },
+    {
+      "name": "grl_bm_turn45l",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn45l.oct",
+      "source_sha256": "1ff378ad31fd98317c5a2be8e5d9c322d6974ccea9a3efbc9ab620a1c3ab4b33",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_turn45r",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn45r.oct",
+      "source_sha256": "cff4af2d460796d8c9a1d762f6eecc9e6e939c6951f2be9acdbed1964b3d1920",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_turn90l",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn90l.oct",
+      "source_sha256": "670a5dc1138d70e47172de2a38f17b57d814240c3ba421a4a1cdcf14e907ec11",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_turn180l",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn180l.oct",
+      "source_sha256": "49d80672bb83046ff3cce2b8891259c59323639b3c64b5909f73942d2f4514c8",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_turn180r",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn180r.oct",
+      "source_sha256": "aa92c4083d6c5db2585cbe1d70bc284fac310d02eebbc9faee0eb739ccbb4217",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_turn90r",
+      "kind": "turn",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\TurnMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_turn90r.oct",
+      "source_sha256": "b6888565d3cc853e796df196849b8212ee49160653c8b4345bcc80f05032a338",
+      "companions": [
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        }
+      ]
+    },
+    {
+      "name": "grl_bm_walklb",
+      "kind": "walk",
+      "source": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walklb.oct",
+      "source_sha256": "88d09384a32bf45aa0ddc5ef70629fd749b56605ec98d0fb40658314b3d6f2ce",
+      "companions": [
+        {
+          "name": "grl_bm_walk_upbody_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\WalkMotions\\fro_elsa\\characters\\class_girl\\motions\\grl_bm_walk_upbody_add.oct",
+          "sha256": "526f170554e07bf45b5e198abf1df2595f019c6796e9d2d422a79e4a652bebc0"
+        },
+        {
+          "name": "elsa_bm_idle_passive",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\IdleMotions\\fro_elsa\\characters\\fro_elsa\\motions\\elsa_bm_idle_passive.oct",
+          "sha256": "96c62e314cd0795ed07f2d67628ddac51918d8f3047b125c8502517f5096c61a"
+        },
+        {
+          "name": "human_bm_runlb_lean_add",
+          "path": "F:\\DisneyInfinityPortalTest\\ElsaSceneResearch\\InstalledGameAssetCheck\\RunMotions\\fro_elsa\\characters\\human\\motions\\human_bm_runlb_lean_add.oct",
+          "sha256": "3b6bae5c0c10b5cffb2e937ff31055ae05b54fc920fc8c904e74591df9a7293c"
+        }
+      ],
+      "group": "Walk Left Back",
+      "lean_companion": "human_bm_runlb_lean_add"
+    }
+  ],
+  "blocked_profiles": []
+}
